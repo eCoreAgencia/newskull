@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Meus Pedidos
+   ========================================================================== */
+
+
+body.orders, .vtex-bootstrap,{
+
+    .nav-pills,
+    #locale-select{
+        display: none;
+    }
+
+    header{
+
+        @include mq($screen-md) {
+            overflow: visible;
+            height: 135px;
+
+            &.menu-persistente{
+                height: 95px;
+            }
+        }
+
+        h1.logo{
+            margin: 0;
+        }
+    }
+
+    main{
+        // background-color: #f0f0f0;
+        // overflow: hidden;
+        // padding: 4% 0;
+
+        .container{
+            padding: 0 5px;
+
+            @include mq($screen-md) {
+                padding: 0;
+            }
+        }
+
+        h1.title{
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,148 @@
+body{
+  position: relative;
+
+  &.top-height-active {
+    padding-top: 145px;
+  }
+
+  &.modal-active {
+    .modal {
+      display: block;
+    }
+  }
+}
+
+.modal {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  min-height: 4500px;
+  position: absolute;
+
+  .close-modal {
+    @extend .transition;
+    top: 39px;
+    left: 50%;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    font-size: 12px;
+    line-height: 10px;
+    margin-left: 240px;
+    z-index: 2147483647;
+    background-color: #666;
+
+    &:hover {
+      @extend .transition;
+      color: #fff;
+      background-color: #333;
+    }
+  }
+
+  .opacity {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    background-color: #000;
+    z-index: 99999999999999;
+  }
+
+  .modal-container {
+    background: rgba(0, 0, 0, 0) url("../arquivos/popup-newsletter-circuito.jpg") no-repeat scroll 0 0;
+    height: 300px;
+    left: 50%;
+    margin-left: -290px;
+    position: fixed;
+    top: 70px;
+    width: 600px;
+    z-index: 2147483647;
+
+    .newsletter {
+      background-color: transparent !important;
+    }
+  }
+
+  h3 {
+    display: none;
+  }
+
+  input.bt-voltar.newsletter-button-back {
+    background-color: #000;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    margin: 11px 372px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+  }
+
+  fieldset {
+    border: medium none;
+    margin: 108px 324px 0;
+
+    &.error{
+      border: medium none;
+      line-height: 14px;
+      margin: 108px 324px 0;
+      text-align: center;
+      width: 200px;
+    }
+
+    &.success {
+      border: medium none;
+      line-height: 14px;
+      text-align: center;
+      margin: 113px 338px 0;
+      width: 210px;
+
+      label, em{
+        display: block;
+        font-size: 13px;
+        line-height: 14px;
+        text-align: center;
+      }
+    }
+
+    p{
+      display: none;
+    }
+
+    input {
+      padding: 6px;
+      border: none;
+      max-width: 180px;
+      font-size: 1.1rem;
+      border: 1px solid #000;
+
+      &.newsletter-client-email {
+        margin: 10px 0;
+      }
+
+      &.newsletter-button-ok {
+        @extend .transition;
+        background-color: #000;
+        border: medium none;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 15px;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+          @extend .transition;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}

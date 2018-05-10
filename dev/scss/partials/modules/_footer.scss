@@ -1,0 +1,228 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+	.newsletter-area{
+		background-color: #272123;
+		overflow: hidden;
+		clear: both;
+		padding: 18px 0;
+		border-bottom: 1px solid #fff;
+
+		.new-box {
+			margin-bottom: 20px;
+			text-align: center;
+
+			span{
+				@include font-size(1.6);
+				@extend .font-raleway;
+			    color: #fff;
+			    font-weight: bolder;
+			    display: block;
+			    line-height: 25px;
+			}
+
+			p{
+				@include font-size(1.2);
+			    color: #fff;
+			}
+
+			@include mq($screen-md) {
+				margin-bottom: 0;
+				text-align: left;
+			}
+		}
+
+		.form-newsletter{
+		    margin: 0;
+		    overflow: hidden;
+		    padding: 0;
+
+		    fieldset{
+		    	margin: 0;
+    			padding: 0;
+
+		    	input{
+		    		@include font-size(1.2);
+		    		vertical-align: middle;
+					width: 100%;
+					height: 37px;
+					padding: 0 0 0 20px;
+					background: #272123;
+					color: #fff;
+					border: 1px solid #fff;
+					margin-bottom: 10px;
+
+					@include mq($screen-md) {
+						width: 94%;
+						margin: 0;
+					}
+		    	}
+		    }
+
+			button.newsletter-button-ok {
+				@include font-size(1.4);
+				@extend .font-raleway;
+				@extend .transition;
+				margin-bottom: 30px;
+    			padding: 0;
+			    border: 1px solid #fff;
+			    background-color: #fff;
+			    color: #000;
+			    font-weight: bolder;
+			    height: 37px;
+			    cursor: pointer;
+
+			    &:hover{
+			    	@extend .transition;
+			    	color: #fff;
+			    	background-color: #000;
+			    	border: 1px solid #fff;
+			    }
+
+			    @include mq($screen-md) {
+			    	margin: 0;
+			    }
+			}
+		}
+
+		.socials{
+			ul{
+				text-align: center;
+
+				@include mq($screen-md) {
+					border-left: 2px solid #fff;
+					margin-left: 10%;
+				}
+
+				li{
+					display: inline-block;
+					vertical-align: middle;
+					margin: 0 5%;
+				}
+			}
+		}
+	}
+
+	section.sessao-dois {
+		overflow: hidden;
+		clear: both;
+		background-color: #272123;
+		padding: 40px 0;
+	    border-bottom: 1px solid #fff;
+
+	    @include mq($screen-md) {
+	    	padding: 3% 0;
+	    }
+
+	    .item {
+		    color: #fff;
+		    line-height: 20px;
+		    font-size: 15px;
+		    margin-bottom: 30px;
+
+		    @include mq($screen-md) {
+		    	margin-bottom: 0;
+		    }
+
+			.tlt-institucional {
+				@include font-size(1.8);
+				@extend .font-raleway;
+			    margin-bottom: 15px;
+			    font-weight: bolder;
+			    text-transform: uppercase;
+			}
+
+			ul{
+				li{
+					list-style: none;
+					line-height: 25px;
+
+					a{
+						@include font-size(1.4);
+						color: #fff;
+						text-decoration: none;
+						font-weight: 300;
+					}
+				}
+			}
+
+			&.segurnca{
+				ul{
+					li{
+						display: inline-block;
+						margin-right: 20px;
+					}
+				}
+			}
+
+			&.pgto{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	section.sessao-tres {
+	    overflow: hidden;
+	    clear: both;
+	    background-color: #272123;
+	    padding: 5% 0;
+
+	    @include mq($screen-md) {
+	    	padding: 1% 0;
+	    }
+
+	    span{
+			@include font-size(1.0);
+			@extend .font-raleway;
+			width: 100%;
+			color: #fff;
+			line-height: 15px;
+			display: block;
+			text-align: center;
+
+			@include mq($screen-md) {
+				text-align: left;
+			}
+	    }
+
+	    .more-info{
+	    	padding-top: 30px;
+	    }
+
+	    .credits {
+	    	ul{
+	    		text-align: center;
+	    		margin-top: 20px;
+
+	    		@include mq($screen-md) {
+	    			border-left: 2px solid #fff;
+	    			margin-top: 0;
+	    		}
+
+	    		li{
+	    			display: inline-block;
+	    			vertical-align: top;
+
+	    			a{
+	    				text-decoration: none;
+
+	    				span{
+		    				@include font-size(1.0);
+		    				text-align: center;
+		    			}
+	    			}
+
+	    			&:last-child{
+	    				a{
+	    					svg{
+	    						margin: 15px 0;
+	    					}
+	    				}
+	    			}
+	    		}
+	    	}
+	    }
+	}
+}

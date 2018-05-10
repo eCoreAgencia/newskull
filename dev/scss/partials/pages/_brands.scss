@@ -1,0 +1,346 @@
+/* ==========================================================================
+   Brands
+   ========================================================================== */
+   /*
+.brand{
+
+	&.47brand{
+		background: url(/arquivos/47-brand-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 95px;
+	}
+
+	&.adidas,
+	&.adidas-originals{
+		background: url(/arquivos/adidas-originals-flag.png) no-repeat scroll 0 0 transparent;
+		width: 80px;
+		height: 55px;
+	}
+
+	&.aragana{
+		background: url(/arquivos/aragana-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 17px;
+	}
+
+	&.asics-tiger{
+		background: url(/arquivos/asics-tiger-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 21px;
+	}
+
+	&.asphalt{
+		background: url(/arquivos/asphalt-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 37px;
+	}
+
+	&.aversion{
+		background: url(/arquivos/aversion-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 43px;
+	}
+
+	&.billionaire-boys-club{
+		background: url(/arquivos/billionaire-boys-club-flag.png) no-repeat scroll 0 0 transparent;
+		width: 80px;
+		height: 53px;
+	}
+
+	&.blaze-supply{
+		background: url(/arquivos/blaze-supply-flag.png) no-repeat scroll 0 0 transparent;
+		width: 80px;
+		height: 74px;
+	}
+
+	&.blunt{
+		background: url(/arquivos/blunt-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 53px;
+	}
+
+	&.blvd-supply{
+		background: url(/arquivos/blvd-supply-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 33px;
+	}
+
+	&.cap-br{
+		background: url(/arquivos/cap-br-flag.png) no-repeat scroll 0 0 transparent;
+		width: 125px;
+		height: 44px;
+	}
+
+	&.casio{
+		background: url(/arquivos/casio-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 24px;
+	}
+
+	&.diamond-supply-co{
+		background: url(/arquivos/diamond-supply-co-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 39px;
+	}
+
+	&.dkg{
+		background: url(/arquivos/dkg-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 36px;
+	}
+
+	&.fallen{
+		background: url(/arquivos/fallen-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 85px;
+	}
+
+	&.famous-stars-and-straps{
+		background: url(/arquivos/famous-stars-and-straps-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 60px;
+	}
+
+	&.freeday{
+		background: url(/arquivos/freeday-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 15px;
+	}
+
+	&.grizzly-griptape{
+		background: url(/arquivos/grizzly-griptape-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 33px;
+	}
+
+	&.g-shock{
+		background: url(/arquivos/g-shock-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 20px;
+	}
+
+	&.hashskatetag{
+		background: url(/arquivos/hashskatetag-flag.png) no-repeat scroll 0 0 transparent;
+		width: 150px;
+		height: 23px;
+	}
+
+	&.helmet-sw{
+		background: url(/arquivos/helmet-sw-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 36px;
+	}
+
+	&.huf{
+		background: url(/arquivos/huf-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 57px;
+	}
+
+	&.impie{
+		background: url(/arquivos/impie-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 53px;
+	}
+
+	&.insanis{
+		background: url(/arquivos/insanis-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 45px;
+	}
+
+	&.jansport{
+		background: url(/arquivos/jansport-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 32px;
+	}
+
+	&.keds{
+		background: url(/arquivos/keds-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 43px;
+	}
+
+	&.last-kings{
+		background: url(/arquivos/last-kings-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 100px;
+	}
+
+	&.live-skateboards{
+		background: url(/arquivos/live-skateboards-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 53px;
+	}
+
+	&.mary-jane{
+		background: url(/arquivos/mary-jane-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 39px;
+	}
+
+	&.mess-lifestyle{
+		background: url(/arquivos/mess-lifestyle-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 97px;
+	}
+
+	&.mitchell-and-ness{
+		background: url(/arquivos/mitchell-and-ness-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 35px;
+	}
+
+	&.nba{
+		background: url(/arquivos/nba-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 45px;
+	}
+
+	&.new-balance{
+		background: url(/arquivos/new-balance-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 55px;
+	}
+
+	&.new-era{
+		background: url(/arquivos/new-era-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 49px;
+	}
+
+	&.new-skull{
+		background: url(/arquivos/new-skull-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 59px;
+	}
+
+	&.nike{
+		background: url(/arquivos/nike-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 52px;
+	}
+
+	&.other-culture{
+		background: url(/arquivos/other-culture-flag.png) no-repeat scroll 0 0 transparent;
+		width: 80px;
+		height: 82px;
+	}
+
+	&.primitive{
+		background: url(/arquivos/primitive-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 35px;
+	}
+
+	&.reebok{
+		background: url(/arquivos/reebok-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 24px;
+	}
+
+	&.rocawear{
+		background: url(/arquivos/rocawear-flag.png) no-repeat scroll 0 0 transparent;
+		width: 150px;
+		height: 29px;
+	}
+
+	&.rook-brand{
+		background: url(/arquivos/rook-brand-flag.png) no-repeat scroll 0 0 transparent;
+		width: 80px;
+		height: 80px;
+	}
+
+	&.rosario-341{
+		background: url(/arquivos/rosario-341-flag.png) no-repeat scroll 0 0 transparent;
+		width: 80px;
+		height: 80px;
+	}
+
+	&.spitfire{
+		background: url(/arquivos/spitfire-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 24px;
+	}
+
+	&.starter-black-label{
+		background: url(/arquivos/starter-black-label-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 93px;
+	}
+
+	&.sumemo{
+		background: url(/arquivos/sumemo-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 57px;
+	}
+
+	&.the-hundreds{
+		background: url(/arquivos/the-hundreds-flag.png) no-repeat scroll 0 0 transparent;
+		width: 120px;
+		height: 42px;
+	}
+
+	&.thug-nine{
+		background: url(/arquivos/thug-nine-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 66px;
+	}
+
+	&.true-heart{
+		background: url(/arquivos/true-heart-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 45px;
+	}
+
+	&.vextor{
+		background: url(/arquivos/vextor-flag.png) no-repeat scroll 0 0 transparent;
+		width: 70px;
+		height: 70px;
+	}
+
+	&.vibe{
+		background: url(/arquivos/vibe-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 22px;
+	}
+
+	&.vida-libre{
+		background: url(/arquivos/vida-libre-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 44px;
+	}
+
+	&.zabo{
+		background: url(/arquivos/zabo-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 35px;
+	}
+
+	&.z-clothing{
+		background: url(/arquivos/z-clothing-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 100px;
+	}
+
+	&.zephyr-hats{
+		background: url(/arquivos/zephyr-hats-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 37px;
+	}
+
+	&.zero{
+		background: url(/arquivos/zero-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 43px;
+	}
+
+	&.premier{
+		background: url(/arquivos/premier-flag.png) no-repeat scroll 0 0 transparent;
+		width: 100px;
+		height: 100px;
+	}
+
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}*/

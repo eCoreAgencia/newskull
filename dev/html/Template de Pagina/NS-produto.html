@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+    <head>
+        <title><vtex.cmc:productPageTitle />  | Newskull</title>
+        <vtex:metaTags/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <vtex:template id="NS-commonStyles" />
+    </head>
+    <body>
+            
+        <vtex:template id="NS-header" />
+
+        <main>
+            <div class="container">
+
+                <section class="product-view row">
+                    <section class="product-box col-xs-12 col-md-8">
+                        <vtex.cmc:ProductImage zoom="on" />
+                    </section><!-- product-box END -->
+
+                    <section class="buy-box col-xs-12 col-md-4">
+                        <vtex.cmc:breadCrumb />
+                        <vtex.cmc:productName />
+
+                        <div class="choose-skus">
+                            <vtex.cmc:skuRichSelection changeImage="1" />
+                            <!-- span>ver guia de medidas</span -->
+                        </div>
+
+                        <div class="price-info">
+                            <vtex.cmc:skuPrice/>
+                        </div><!-- price-info END -->
+
+                        <vtex.cmc:BuyButton />
+
+                    </section><!-- buy-box END -->
+                </section><!-- product-view END -->
+
+                <section class="product-info">
+                    <h3>Descrição</h3>
+                    <vtex.cmc:ProductDescription/>
+                </section>
+
+            </div>
+
+            <section class="shelf shelfRelacionados">
+                <div class="container">
+                    <h2>Quem viu, viu também</h2>
+                    <div class="slider slide-wrap">
+                        <div class="slideShelf">
+                            <vtex:contentPlaceHolder id="shelfRelacionados" />
+                        </div>
+                    </div>
+                </div>
+            </section><!-- shelfRelacionados END -->
+
+        </main>
+
+        <vtex:template id="NS-footer" />
+        <vtex:template id="NS-commonScripts" />
+        <script type="text/javascript" src="/arquivos/slick.js"></script>
+        
+    </body>
+</html>

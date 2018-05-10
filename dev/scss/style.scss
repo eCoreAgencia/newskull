@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@-ms-viewport { width: device-width; }
+
+/*
+Dependencies
+========================================================================== */
+
+@import "partials/base/mixins";
+@import "resetv2";
+@import "partials/all";
+
+/*
+Base Style
+========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Raleway:300,400,400i,800');
+
+@include mq($screen-sm) {
+	*:focus { outline: none !important; }
+}
+
+.font-raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.font-ptsans {
+	font-family: 'PT Sans', sans-serif;
+}
+
+html {
+	@extend .font-ptsans;
+	min-height: 100%;
+	box-sizing: border-box;
+	font: {
+		size: 10px;
+	}
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: inherit; }

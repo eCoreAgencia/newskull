@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Form Busca
+   ========================================================================== */
+
+   .search{
+		.busca{
+			legend,
+			label,
+			select{
+				display: none;
+			}
+		}	
+
+		input{
+			&.fulltext-search-box{
+				@include font-size(1);
+				height: 30px;
+				width: 90%;
+				padding: 8px;
+				border: none;
+				border-bottom: 1px solid #000;
+				background: transparent;
+			}
+
+			&.btn-buscar{
+			    right: 22px;
+				width: 18px;
+			    height: 19px;
+				border: none;
+			    font-size: 0;
+			    cursor: pointer;
+			    position: absolute;
+			    top: 0;
+				background: url(/arquivos/lupa.png) no-repeat 0 0 transparent;
+			}
+		}
+	}

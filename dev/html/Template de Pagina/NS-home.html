@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+    <head>
+        <title>Newskull | Bonés, Tênis, Roupas e Acessórios</title>
+        <vtex:metaTags/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <vtex:template id="NS-commonStyles" />
+    </head>
+
+    <body>
+    
+        <vtex:template id="NS-header" />
+
+        <main>
+            <section class="banners-top">
+                <div class="slider slide-wrap">
+                    <div class="slide">
+                        <vtex:contentPlaceHolder id="banners-slide" />
+                    </div>
+                </div>
+            </section><!-- banners-top END -->
+            
+             <section class="brand-box">
+                <div class="container">
+                     <div class="slider slide-wrap">
+                        <div class="slideBrands">
+                             <vtex:contentPlaceHolder id="marcas-parceiras" />
+                        </div>
+                    </div>
+                </div>
+            </section>   
+
+            <section class="mini-banners">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <vtex:contentPlaceHolder id="mini-banner-one" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <vtex:contentPlaceHolder id="mini-banner-two" />
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="col-xs-12 col-sm-6">
+                        <vtex:contentPlaceHolder id="mini-banner-tree" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <vtex:contentPlaceHolder id="mini-banner-four" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <vtex:contentPlaceHolder id="banner-full-five" />
+                    </div>
+                </div>
+            </section><!-- mini-banners END -->
+
+            <section class="destaque-shelf">
+                <div class="container">
+                    <div class="shelf shelf-destaques">
+                        <h2>Lançamentos</h2>
+                        <div class="slider slide-wrap">
+                            <div class="slideShelf">
+                                <vtex:contentPlaceHolder id="destaque-home" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <vtex:template id="NS-footer" />
+
+        <vtex:template id="NS-commonScripts" />
+        <script type="text/javascript" src="/arquivos/slick.js"></script>
+    </body>
+</html>
